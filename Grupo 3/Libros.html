@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>SM Armonía y Equilibrio</title>
+    <link href="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/style.min.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="sb-nav-fixed">
+    <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
+        <!-- Navbar Brand-->
+        <a class="navbar-brand ps-3" href="index.html"> SM Armonía y Equilibrio </a>
+        <!-- Sidebar Toggle-->
+        <button class="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0" id="sidebarToggle" href="#!"><i
+                class="fas fa-bars"></i></button>
+        <!-- Navbar Search-->
+        <form class="d-none d-md-inline-block form-inline ms-auto me-0 me-md-3 my-2 my-md-0">
+            <div class="input-group">
+                <input class="form-control" type="text" placeholder="Search for..." aria-label="Search for..."
+                    aria-describedby="btnNavbarSearch" />
+                <button class="btn btn-primary" id="btnNavbarSearch" type="button"><i
+                        class="fas fa-search"></i></button>
+            </div>
+        </form>
+        <!-- Navbar-->
+        <ul class="navbar-nav ms-auto ms-md-0 me-3 me-lg-4">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false"><i class="fas fa-user fa-fw"></i></a>
+                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#!">Configuracion</a></li>
+                    <li><a class="dropdown-item" href="#!">iniciar sesion</a></li>
+                    <li>
+                        <hr class="dropdown-divider" />
+                    </li>
+                    <li><a class="dropdown-item" href="#!">Cerrar sesion</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <div id="layoutSidenav">
+        <div id="layoutSidenav_nav">
+            <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
+                <div class="sb-sidenav-menu">
+                    <div class="nav">
+                        <a class="nav-link" href="Psicologos.html">
+                            <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                            Nuestros mejores psicologos!
+                        </a>
+                        <a class="nav-link collapsed" href="charts.html" data-bs-toggle="collapse"
+                            data-bs-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
+                            <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
+                            Blogs y Articulos!
+                            <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                        </a>
+                        <div class="collapse" id="collapseLayouts" aria-labelledby="headingOne"
+                            data-bs-parent="#sidenavAccordion">
+                            <nav class="sb-sidenav-menu-nested nav">
+                                <a class="nav-link" href="BienestarEmocional.html">Bienestar Emocional</a>
+                            </nav>
+
+                            <nav class="sb-sidenav-menu-nested nav">
+                                <a class="nav-link" href="ManejoEstres.html">Manejo del Estrés</a>
+                            </nav>
+
+
+                        </div>
+                        <a class="nav-link" href="Historias.html">
+                            <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                            Historias Motivadoras!
+                        </a>
+
+
+                        <a class="nav-link" href="Libros.html">
+                            <div class="sb-nav-link-icon"><i class="fas fa-chart-area"></i></div>
+                            Libros!
+                        </a>
+                        <a class="nav-link" href="tables.html">
+                            <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
+                            Tables
+                        </a>
+                    </div>
+                </div>
+                <div class="sb-sidenav-footer">
+                    <div class="small"></div>
+
+                </div>
+            </nav>
+        </div>
+        <main>
+            <div class="container-fluid px-4">
+                <h1 class="mt-4">Libros Recomendados</h1>
+                <div class="book-container">
+                    <!-- libro 1 -->
+                    <a href="https://www.amazon.com/-/es/Los-dones-imperfecci%C3%B3n-coraz%C3%B3n-realmente/dp/8484456560"
+                        target="_blank" class="book-link">
+                        <div class="book-card">
+                            <img src="Imagenes/libro1.jpeg" alt="Libro 1">
+                            <div class="book-title">Los dones de la imperfección</div>
+                            <div class="book-description">Explora cómo aceptar la vulnerabilidad y vivir con
+                                autenticidad.</div>
+                        </div>
+                    </a>
+
+                    <!-- libro 2 -->
+                    <a href="https://www.amazon.com.mx/El-hombre-en-busca-sentido/dp/8425432022" target="_blank" class="book-link">
+                        <div class="book-card">
+                            <img src="Imagenes/libro2.jpeg" alt="Libro 2">
+                            <div class="book-title">El hombre en busca de sentido</div>
+                            <div class="book-description">Una reflexión profunda sobre la resiliencia y encontrar
+                                propósito en la adversidad.</div>
+                        </div>
+                    </a>
+
+                    <!-- libro 3 -->
+                    <a href="https://www.amazon.es/H%C3%A1bitos-at%C3%B3micos-Autoconocimiento-James-Clear/dp/8418118032" target="_blank" class="book-link">
+                        <div class="book-card">
+                            <img src="Imagenes/Libro3.jpg" alt="Libro 3">
+                            <div class="book-title">Hábitos atómicos</div>
+                            <div class="book-description">Ayuda a construir hábitos positivos que impactan en tu
+                                bienestar.</div>
+                        </div>
+                    </a>
+
+                    <!-- libro 4 -->
+                    <a href="https://www.amazon.com/-/es/trampa-felicidad-Lib%C3%A9rate-ansiedad-Empieza/dp/6070795687" target="_blank" class="book-link">
+                        <div class="book-card">
+                            <img src="Imagenes/Libro4.jpg" alt="Libro 4">
+                            <div class="book-title">La trampa de la felicidad</div>
+                            <div class="book-description">Basado en la terapia de aceptación y compromiso, te enseña a
+                                dejar de luchar contra tus pensamientos y emociones.</div>
+                        </div>
+                    </a>
+
+                    <!-- libro 5 -->
+                    <a href="https://www.amazon.es/Mindfulness-vida-cotidiana-quiera-Divulgaci%C3%B3n-Autoayuda/dp/8449322774" target="_blank" class="book-link">
+                        <div class="book-card">
+                            <img src="Imagenes/Libro5.jpeg" alt="Libro 5">
+                            <div class="book-title">Mindfulness en la vida cotidiana</div>
+                            <div class="book-description">Introduce la práctica de la atención plena para reducir el
+                                estrés y mejorar la calidad de vida.</div>
+                        </div>
+                    </a>
+
+                    <!-- libro 6 -->
+                    <a href="https://www.amazon.com.mx/Tus-zonas-erroneas-Wayne-Dyer/dp/8499085520#:~:text=No%20proyectes%20tu%20insatisfacci%C3%B3n%20en%20otros%3A%20la%20causa,qu%C3%A9%20significan%2C%20ad%C3%B3nde%20conducen%20y%20c%C3%B3mo%20podemos%20superarlas." target="_blank" class="book-link">
+                        <div class="book-card">
+                            <img src="Imagenes/Libro6.jpg" alt="Libro 6">
+                            <div class="book-title">Tus zonas erróneas</div>
+                            <div class="book-description">Un clásico sobre cómo liberarse de patrones de pensamiento
+                                negativos.</div>
+                        </div>
+                    </a>
+
+                    <!-- libro 7 -->
+                    <a href="https://www.amazon.es/Por-las-voces-vuelven-Ficci%C3%B3n/dp/8408249215" target="_blank" class="book-link">
+                        <div class="book-card">
+                            <img src="Imagenes/Libro7.jpg" alt="Libro 7">
+                            <div class="book-title">Por si las voces vuelven</div>
+                            <div class="book-description">Un relato sincero y esperanzador sobre la salud mental desde
+                                la experiencia personal.</div>
+                        </div>
+                    </a>
+
+                    <!-- libro 8 -->
+                    <a href="https://www.amazon.es/Arte-amargarse-vida-Nueva-edici%C3%B3n/dp/8425431891" target="_blank" class="book-link">
+                        <div class="book-card">
+                            <img src="Imagenes/Libro8.jpeg" alt="Libro 8">
+                            <div class="book-title">El arte de amargarse la vida</div>
+                            <div class="book-description">Con humor e inteligencia, analiza cómo a veces nos saboteamos
+                                sin darnos cuenta.</div>
+                        </div>
+                    </a>
+
+                    <!-- libro 9 -->
+                    <a href="https://www.amazon.es/C%C3%B3mo-hacer-pasen-cosas-buenas/dp/8467053305" target="_blank" class="book-link">
+                        <div class="book-card">
+                            <img src="Imagenes/Libro9.jpg" alt="Libro 9">
+                            <div class="book-title">Cómo hacer que te pasen cosas buenas</div>
+                            <div class="book-description">Combina ciencia y psicología para ayudarte a gestionar
+                                emociones y encontrar bienestar.</div>
+                        </div>
+                    </a>
+
+                    <!-- libro 10 -->
+                    <a href="https://www.amazon.com/-/es/sociedad-del-cansancio-Byung-Chul-Han/dp/8425428688" target="_blank" class="book-link">
+                        <div class="book-card">
+                            <img src="Imagenes/Libro10.jpg" alt="Libro 10">
+                            <div class="book-title">La sociedad del cansancio</div>
+                            <div class="book-description">Una reflexión sobre cómo la cultura de la productividad afecta
+                                nuestra salud mental.</div>
+                        </div>
+                    </a>
+
+                    <!-- libro 11 -->
+                    <a href="https://www.amazon.com.mx/Amar-que-Cuatro-preguntas-cambiar/dp/B001UW0G9W" target="_blank" class="book-link">
+                        <div class="book-card">
+                            <img src="Imagenes/Libro11.jpg" alt="Libro 11">
+                            <div class="book-title">Amar lo que es</div>
+                            <div class="book-description">Enseña un proceso sencillo pero poderoso para cuestionar los
+                                pensamientos negativos y encontrar paz interior.</div>
+                        </div>
+                    </a>
+
+                    <!-- libro 12 -->
+                    <a href="https://www.amazon.com/-/es/Encuentra-tu-persona-vitamina-Spanish/dp/6070780361" target="_blank" class="book-link">
+                        <div class="book-card">
+                            <img src="Imagenes/Libro12.jpg" alt="Libro 12">
+                            <div class="book-title">Encuentra tu persona vitamina</div>
+                            <div class="book-description">Sobre cómo las relaciones influyen en nuestro bienestar
+                                emocional.</div>
+                        </div>
+                    </a>
+
+                </div>
+            </div>
+    </div>
+    </main>
+
+    <footer class="py-4 bg-light mt-auto">
+        <div class="container-fluid px-4">
+            <div class="d-flex align-items-center justify-content-between small">
+                <div class="text-muted">Copyright &copy; Proyecto Grupo 3 </div>
+            </div>
+        </div>
+        </div>
+    </footer>
+    </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js" crossorigin="anonymous"></script>
+    <script src="assets/demo/chart-area-demo.js"></script>
+    <script src="assets/demo/chart-bar-demo.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/umd/simple-datatables.min.js"
+        crossorigin="anonymous"></script>
+    <script src="js/datatables-simple-demo.js"></script>
+</body>
+
+</html>
