@@ -1,15 +1,4 @@
 @charset "UTF-8";
-/*!
-* Start Bootstrap - SB Admin v7.0.7 (https://startbootstrap.com/template/sb-admin)
-* Copyright 2013-2023 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-sb-admin/blob/master/LICENSE)
-*/
-/*!
- * Bootstrap  v5.2.3 (https://getbootstrap.com/)
- * Copyright 2011-2022 The Bootstrap Authors
- * Copyright 2011-2022 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
- */
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -300,6 +289,14 @@ sub {
 sup {
   top: -0.5em;
 }
+.carousel-item img {
+  width: 500%; /* Ancho fijo */
+  height: 200px; /* Alto fijo */
+  object-fit: cover; /* Ajusta la imagen sin deformarla */
+  margin: auto; /* Centra la imagen */
+  display: block; /* Asegura el centrado */
+}
+
 
 a {
   color: var(--bs-link-color);
