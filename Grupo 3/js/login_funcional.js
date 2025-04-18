@@ -15,7 +15,7 @@ document.getElementById('formLogin').addEventListener('submit', async (e) => {
 
     if (result.login) {
         alert('Inicio de sesión exitoso');
-        window.location.href = 'index.html';
+        window.location.href = '/ProyectoWeb/index.php';
     } else {
         alert(result.error || 'Correo o contraseña incorrectos');
     }
