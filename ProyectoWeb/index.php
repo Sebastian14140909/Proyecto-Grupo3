@@ -24,10 +24,6 @@ $usuario = $_SESSION['usuario'] ?? null;
         <button class="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0" id="sidebarToggle" href="#!"><i class="fas fa-bars"></i></button>
 
         <form class="d-none d-md-inline-block form-inline ms-auto me-0 me-md-3 my-2 my-md-0" id="formBusqueda">
-            <div class="input-group">
-                <input class="form-control" type="text" placeholder="Buscar..." aria-label="Buscar..." aria-describedby="btnNavbarSearch" />
-                <button class="btn btn-primary" id="btnNavbarSearch" type="button"><i class="fas fa-search"></i></button>
-            </div>
         </form>
 
         <!-- Dropdown del usuario -->
@@ -54,7 +50,7 @@ $usuario = $_SESSION['usuario'] ?? null;
             <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
                 <div class="sb-sidenav-menu">
                     <div class="nav">
-                        <a class="nav-link" href="Psicologos.html">
+                        <a class="nav-link" href="/ProyectoWeb/php/obtener_psicologos.php">
                             <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                             Nuestros mejores psicólogos!
                         </a>
@@ -66,24 +62,24 @@ $usuario = $_SESSION['usuario'] ?? null;
                         </a>
                         <div class="collapse" id="collapseLayouts" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                             <nav class="sb-sidenav-menu-nested nav">
-                                <a class="nav-link" href="BienestarEmocional.html">Bienestar Emocional</a>
+                                <a class="nav-link" href="BienestarEmocional.php">Bienestar Emocional</a>
                             </nav>
 
                             <nav class="sb-sidenav-menu-nested nav">
-                                <a class="nav-link" href="ManejoEstres.html">Manejo del Estrés</a>
+                                <a class="nav-link" href="ManejoEstres.php">Manejo del Estrés</a>
                             </nav>
                         </div>
 
-                        <a class="nav-link" href="Historias.html">
+                        <a class="nav-link" href="/ProyectoWeb/php/VerHistorias.php">
                             <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                             Historias Motivadoras!
                         </a>
 
-                        <a class="nav-link" href="Libros.html">
+                        <a class="nav-link" href="/ProyectoWeb/php/Php_libroVer.php">
                             <div class="sb-nav-link-icon"><i class="fas fa-chart-area"></i></div>
                             Libros!
                         </a>
-                        <a class="nav-link" href="Fundadores.html">
+                        <a class="nav-link" href="Fundadores.php">
                             <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
                             Fundadores
                         </a>

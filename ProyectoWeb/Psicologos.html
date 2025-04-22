@@ -22,7 +22,7 @@
                 class="fas fa-bars"></i></button>
         <!-- Navbar Search-->
         <form class="d-none d-md-inline-block form-inline ms-auto me-0 me-md-3 my-2 my-md-0">
-            <div class="input-group">
+            <div class="input-group" id="psicologosContainer">
                 <input class="form-control" type="text" placeholder="Search for..." aria-label="Search for..."
                     aria-describedby="btnNavbarSearch" />
                 <button class="btn btn-primary" id="btnNavbarSearch" type="button"><i
@@ -72,7 +72,7 @@
 
                         </div>
                         <a class="nav-link" href="Historias.html">
-                            <div class="sb-nav-link-icon"><i class="fas fa-book-open"></i></div>
+                            <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                             Historias Motivadoras!
                         </a>
 
@@ -96,15 +96,7 @@
         <div id="layoutSidenav_content">
             <main>
                 <div class="container-fluid px-4">
-                    <div class="d-flex justify-content-between align-items-center mt-4 mb-3">
-                        <h1 class="mb-0">Psicólogos</h1>
-                        <div>
-                            <a href="agregar_psicologo.php" class="btn btn-primary me-2">Agregar</a>
-                            <a href="eliminar_psicologo.php" class="btn btn-primary">Eliminar</a>
-                          </div>
-                          
-                          
-                    </div>
+                    <h1 class="mt-4">Psicólogos</h1>
                     <ol class="breadcrumb mb-4">
                         <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
                         <li class="breadcrumb-item active">Psicólogos</li>
@@ -236,6 +228,7 @@
     <script src="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/umd/simple-datatables.min.js"
         crossorigin="anonymous"></script>
     <script src="js/datatables-simple-demo.js"></script>
+<script src="js/psicologos.js"></script>
 </body>
 
 </html>
